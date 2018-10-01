@@ -9,7 +9,7 @@ project             = "${PCF_PROJECT_ID}"
 region              = "us-central1"
 zones               = ["us-central1-b", "us-central1-a", "us-central1-c"]
 dns_suffix          = "${PCF_DOMAIN_NAME}"
-opsman_image_url    = "https://storage.googleapis.com/ops-manager-us/pcf-gcp-2.0-build.213.tar.gz"
+opsman_image_url    = "https://storage.googleapis.com/ops-manager-us/pcf-gcp-2.3-build.167.tar.gz"
 buckets_location    = "US"
 ssl_cert            = <<SSL_CERT
 $(cat ../${PCF_SUBDOMAIN_NAME}.${PCF_DOMAIN_NAME}.cert)
