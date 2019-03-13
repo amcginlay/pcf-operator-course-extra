@@ -2,6 +2,13 @@
 
 The Terraform config file (the heredoc way)
 
+First, make sure you're in the right directory:
+
+```bash
+cd ~/workspace/pcf-operator-course/pivotal-cf-terraforming-gcp-*
+```
+
+Then build the `terraform.tfvars` file:
 ```bash
 cat > ./terraform.tfvars <<-EOF
 env_name            = "${PCF_SUBDOMAIN_NAME}"
